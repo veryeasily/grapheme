@@ -1,0 +1,7 @@
+<project default="concatenate">
+	<target name="concatenate">
+		<concat destfile="grapheme.js">
+			<fileset dir="." includes="*.js" />
+		</concat>
+	</target>
+</project>

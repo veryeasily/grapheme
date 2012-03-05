@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Box	box.js	/^function Box(ev)$/;"	f
+armBoxForTyping	box.js	/^function armBoxForTyping(box)$/;"	f
+armBoxForTyping.writeToBox	box.js	/^	function writeToBox(ev)$/;"	f
+box	box.js	/^var box, fun, $BOD;$/;"	v
+clrs.r	box.js	/^			r: Math.floor(Math.random()*160+96).toString(16),$/;"	p
+draw	box.js	/^function draw(ev)$/;"	c
+draw.onmousemove	box.js	/^	this.onmousemove = function(ev)$/;"	m
+draw.onmouseup	box.js	/^	this.onmouseup = function(ev)$/;"	m
+loadBoxes	box.js	/^function loadBoxes()$/;"	f
+location.hostname	box.js	/^		hostname: document.location.hostname,$/;"	p
+pts.I	box.js	/^			I: [ev.pageX, ev.pageY],$/;"	p
+testForLinks	box.js	/^function testForLinks(str)$/;"	f
+updateBox	box.js	/^function updateBox(box)$/;"	f

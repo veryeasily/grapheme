@@ -1,0 +1,12 @@
+{
+  "name": "grapheme",
+  "version": "0.1",
+  "description": "For making marks.",
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "background_page":"background.html",
+  "permissions": [
+  	"tabs", "http://*/*", "https://*/*" 
+  ]
+}
