@@ -4,16 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Box	box.js	/^function Box(ev)$/;"	f
-armBoxForTyping	box.js	/^function armBoxForTyping(box)$/;"	f
-armBoxForTyping.writeToBox	box.js	/^	function writeToBox(ev)$/;"	f
-box	box.js	/^var box, fun, $BOD;$/;"	v
-clrs.r	box.js	/^			r: Math.floor(Math.random()*160+96).toString(16),$/;"	p
-draw	box.js	/^function draw(ev)$/;"	c
-draw.onmousemove	box.js	/^	this.onmousemove = function(ev)$/;"	m
-draw.onmouseup	box.js	/^	this.onmouseup = function(ev)$/;"	m
-loadBoxes	box.js	/^function loadBoxes()$/;"	f
-location.hostname	box.js	/^		hostname: document.location.hostname,$/;"	p
-pts.I	box.js	/^			I: [ev.pageX, ev.pageY],$/;"	p
-testForLinks	box.js	/^function testForLinks(str)$/;"	f
-updateBox	box.js	/^function updateBox(box)$/;"	f
+Box	02-box.js	/^function Box(ev)$/;"	c
+Box.location.hostname	02-box.js	/^		hostname: document.location.hostname,$/;"	p
+Box.pts.I	02-box.js	/^			I: [ev.pageX, ev.pageY],$/;"	p
+armBoxForTyping	02-box.js	/^function armBoxForTyping(box)$/;"	f
+armBoxForTyping.writeToBox	02-box.js	/^	function writeToBox(ev)$/;"	f
+box	01-main.js	/^var box, fun, $BOD;$/;"	v
+clrs.r	02-box.js	/^			r: Math.floor(Math.random() * 160 + 96).toString(16),$/;"	p
+draw	04-draw.js	/^function draw(ev)$/;"	c
+draw.onmousemove	04-draw.js	/^	this.onmousemove = function(ev)$/;"	m
+draw.onmouseup	04-draw.js	/^	this.onmouseup = function(ev)$/;"	m
+loadBoxes	03-database.js	/^function loadBoxes()$/;"	f
+testForLinks	05-utilities.js	/^function testForLinks(str)$/;"	f
+updateBox	03-database.js	/^function updateBox(box)$/;"	f

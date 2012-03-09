@@ -1,0 +1,15 @@
+{
+   "_id": "_design/grapheme",
+   "_rev": "5-d2871dd8a6261bf0789d4f97bf5764b4",
+   "views": {
+       "serveBoxes": {
+           "map": "function(doc) {\n  if(doc._id != \"_design/grapheme\"){\n  emit(doc._id, doc);\n  }\n}"
+       },
+       "getMarks": {
+           "map": "function(doc) {if (doc.location.pathname && doc.location.hostname) {emit([doc.location.hostname, doc.location.pathname, doc.type], doc);};}"
+       },
+       "test": {
+           "map": "function(doc) {}"
+       }
+   }
+}
